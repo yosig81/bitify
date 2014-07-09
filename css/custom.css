@@ -1,0 +1,47 @@
+
+.btn-bit {
+}
+
+
+#regval {
+	text-align: center;
+}
+
+.app-title {
+	color: #428bca;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.form-control-mod {
+	width: auto;
+	display: inline;
+}
+
+.radio-mod, .checkbox-mod {
+	display: inline;
+}
+
+.list-inline {
+	margin-left: 0px;
+}
+
+.list-inline-mod>li {
+	padding-right: 5px;
+	padding-left: 0px;
+	margin-right: -2px;
+	padding-top: 10px;
+}
+
+.label {
+	color: #777;
+	margin-left: 2px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0px;
+	width: 19px;
+}
+
+.panel {
+	margin-bottom: 0px;
+}

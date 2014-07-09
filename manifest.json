@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bitify!",
+  
+  "description": "32 Bit Values analyzer / viewer",
+  
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  
+  "permissions": [
+  ],
+  
+  "icons": {  "16": "icon.png",
+              "48": "icon.png",
+              "128": "icon.png" },
+  
+  "background": {
+    "scripts": ["js/background.js"]
+  }
+}
