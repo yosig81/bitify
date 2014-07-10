@@ -28,63 +28,63 @@
   </head>
   <body>
     <div class="container">
-      <div class="row" style="width: 710px;">
+      <div class="row" style="width: 680px;">
         
         <div class="panel panel-default">
 
           <div class="panel-heading">
             <div class="btn-toolbar" role="toolbar">
               
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">31</span>
                 <span class="btn-xs label">30</span>
                 <span class="btn-xs label">29</span>
                 <span class="btn-xs label">28</span>
               </div>
               
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">27</span>
                 <span class="btn-xs label">26</span>
                 <span class="btn-xs label">25</span>
                 <span class="btn-xs label">24</span>
               </div>
               
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">23</span>
                 <span class="btn-xs label">22</span>
                 <span class="btn-xs label">21</span>
                 <span class="btn-xs label">20</span>
               </div>
               
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">19</span>
                 <span class="btn-xs label">18</span>
                 <span class="btn-xs label">17</span>
                 <span class="btn-xs label">16</span>
               </div>
 
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">15</span>
                 <span class="btn-xs label">14</span>
                 <span class="btn-xs label">13</span>
                 <span class="btn-xs label">12</span>
               </div>
               
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">11</span>
                 <span class="btn-xs label">10</span>
                 <span class="btn-xs label">&nbsp;&nbsp;9</span>
                 <span class="btn-xs label">&nbsp;&nbsp;8</span>
               </div>
 
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">&nbsp;&nbsp;7</span>
                 <span class="btn-xs label">&nbsp;&nbsp;6</span>
                 <span class="btn-xs label">&nbsp;&nbsp;5</span>
                 <span class="btn-xs label">&nbsp;&nbsp;4</span>
               </div>
 
-              <div class="btn-group" style="width: 73px;">
+              <div class="btn-group label-group">
                 <span class="btn-xs label">&nbsp;&nbsp;3</span>
                 <span class="btn-xs label">&nbsp;&nbsp;2</span>
                 <span class="btn-xs label">&nbsp;&nbsp;1</span>
@@ -147,16 +147,14 @@
 
           <div class="panel-body">
             
-
-            <ul class="list-inline list-inline-mod">
+            <ul class="list-inline">
               <li><button type="button" id="btn-clr" class="btn btn-primary btn-sm">Clear</button></li>
               <li><button type="button" class="btn btn-primary btn-sm" id="btn-reverse">Reverse Bits</button></li>
               <li><button type="button" class="btn btn-default btn-sm" id="shift-left">&lt;&lt;</button></li>
               <li><input type="text" class="form-control form-control-mod input-sm" id="regval" value="0" maxlength="8"/></li>
               <li><button type="button" class="btn btn-default btn-sm" id="shift-right">&gt;&gt;</button></li>
-              
               <li>
-                <div class="btn-group dropup">
+                <div class="btn-group">
                   <button type="button" class="btn btn-primary btn-sm" id="btn-base">Hex</button>
                   <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
@@ -167,7 +165,7 @@
                     <li><a class="base-change" href="#">Dec</a></li>
                   </ul>
                 </div>
-                <div class="btn-group dropup">
+                <div class="btn-group">
                   <button type="button" class="btn btn-primary btn-sm" id="btn-bits">32 Bit</button>
                   <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
@@ -176,22 +174,24 @@
                   <ul class="dropdown-menu" role="menu">
                     <li><a class="num-bits-change" href="#">32 Bit</a></li>
                     <li><a class="num-bits-change" href="#">16 Bit</a></li>
-                    <li><a class="num-bits-change" href="#">8 Bit</a></li>
                   </ul>
                 </div>
-                <div class="checkbox checkbox-mod" style="vertical-align: middle;">
-                  <label class="checkbox-inline">
-                    <input type="checkbox" name="big-endian" id="motorola" value=""> Motorola mode
-                  </label>
-                </div>
               </li>
-
             </ul>
-
+            <div class="checkbox checkbox-mod" style="vertical-align: middle;">
+              <label class="checkbox-inline">
+                <input type="checkbox" name="big-endian" id="motorola" value=""> Motorola mode
+              </label>
+            </div>
         </div>
 
+        <div class="panel-footer">
+          <span class="glyphicon glyphicon-zoom-in"></span>
+          <strong>Bitify</strong> 
+          <span>made by Yosi Gabay © 2014</span>
+        </div>
 
       </div>
-   
+
   </body>
 </html>
